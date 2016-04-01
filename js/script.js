@@ -28,11 +28,13 @@ var prototypefabric = new function() {
 
     this.addText = function(text){
         var title = text;
-        var text = new fabric.IText(title, {
+        var text = new fabric.Textbox(title, {
+            minWidth:100,
             fontSize: 50,
             textAlign: 'center',
             fontWeight:100,
-            fontFamily:'Roboto'
+            fontFamily:'Roboto',
+            width:400
         });
         text.setShadow({
             blur:3,
@@ -46,7 +48,9 @@ var prototypefabric = new function() {
         text.setCoords();
         canvas.calcOffset();
         canvas.renderAll();
-        canvas.renderAll();
+        setTimeout(function(){
+            canvas.renderAll().bindAll();
+        },500);
     }
     this.deleteObject = function(){
         canvas.remove(canvas.getActiveObject());
@@ -56,7 +60,9 @@ var prototypefabric = new function() {
 //============== Jquery Events ================
 
 $(window).load(function(){
-    prototypefabric.addText('C A N V A S');
+    $('#add-text').click(function(){
+        prototypefabric.addText('C A N V A S');
+    });
     $('html').keyup(function(e){
         if(e.keyCode == 46) {
             prototypefabric.deleteObject();
