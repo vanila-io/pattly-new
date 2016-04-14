@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Pattly</title>
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+		<link rel="stylesheet" href="css/critical.css">
+	</head>
+	<body>
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#!" class="brand-logo"><img src="img/Smallsquares.svg" alt=""></a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
+				<!-- Navbar Canvas -->
+				<ul class="left navbarLeft navbarCanvas">
+					<li>
+						<div class="input-field widthFixed">
+							<input id="canvasWidth" type="text" class="validate" value="">
+							<label for="canvasWidth">Width</label>
+						</div>
+					</li>
+					<li>
+						<div class="input-field widthFixed">
+							<input id="canvasHeight" type="text" class="validate" value="">
+							<label for="canvasHeight">Height</label>
+						</div>
+					</li>
+					<!-- <li>
+						<input id="canvasColor" type="text" class="validate" value="">
+					</li> -->
+					<!-- <li>
+						<div class="input-field inputSelect">
+							<select>
+								<option value="1">0.5</option>
+								<option value="2">1</option>
+								<option value="3">2</option>
+							</select>
+						</div>
+					</li>
+					<li>
+						<input type="checkbox" id="snaptogrid" />
+						<label for="snaptogrid">Snap to grid</label>
+					</li>
+					<li>
+						<input type="checkbox" id="ratio" />
+						<label for="ratio">Ratio</label>
+					</li>
+					<li>
+						<a class="waves-effect waves-light btn btnEnterGrid">Enter grid</a>
+					</li> -->
+				</ul>
+
+				<!--Navbar Graphics -->
+				<!--<ul class="left navbarLeft navbarGraphics">
+					<li>
+						<form action="#">
+							<div class="file-field input-field valign-wrapper">
+								<div class="waves-effect waves-light btn valign">
+									<span>Upload icon</span>
+									<input type="file">
+								</div>
+							</div>
+						</form>
+					</li>
+					<li>
+						<form action="#">
+							<p class="range-field">
+								<label for="iconOpacity">Opacity</label>
+								<input type="range" id="iconOpacity" min="0" max="100" />
+							</p>
+						</form>
+					</li>
+					<li>
+						<a class="waves-effect waves-light btn">Delete</a>
+					</li>
+					<li>
+						<a class="waves-effect waves-light btn">Duplicate</a>
+					</li>
+					<li>
+					<li>
+						<input id="iconColor" type="text" class="validate" value="#ffffff">
+					</li>
+					</li>
+				</ul>-->
+
+				<!--Navbar Text -->
+				<ul class="left navbarLeft navbarText">
+					<li>
+						<a class="waves-effect waves-light btn">Add text</a>
+					</li>
+					<li>
+						<div class="input-field inputSelect">
+							<select>
+								<option value="1">Open Sans</option>
+								<option value="2">Roboto</option>
+								<option value="3">Lato</option>
+							</select>
+						</div>
+					</li>
+					<li class="textButtons">
+						<a class="waves-effect waves-light btn"><i class="fa fa-bold"></i></a>
+						<a class="waves-effect waves-light btn"><i class="fa fa-underline"></i></a>
+						<a class="waves-effect waves-light btn"><i class="fa fa-italic"></i></a>
+						<a class="waves-effect waves-light btn"><i class="fa fa-align-right"></i></a>
+						<a class="waves-effect waves-light btn"><i class="fa fa-align-right"></i></a>
+						<a class="waves-effect waves-light btn"><i class="fa fa-align-center"></i></a>
+					</li>
+					<li>
+						<form action="#">
+							<p class="range-field">
+								<label for="iconOpacity">Opacity</label>
+								<input type="range" id="iconOpacity" min="0" max="100" />
+							</p>
+						</form>
+					</li>
+					<li>
+						<a class="waves-effect waves-light btn">Delete</a>
+					</li>
+					<li>
+						<a class="waves-effect waves-light btn">Duplicate</a>
+					</li>
+					<li>
+						<input id="iconColor" type="text" class="validate" value="#ffffff">
+					</li>
+				</ul>
+
+				<!--Navbar Export -->
+				<!--<ul class="left navbarLeft navbarExport">
+					<li>
+						<div class="input-field">
+							<input id="exportWidth" type="text" class="validate" value="500">
+							<label for="exportWidth">Width</label>
+						</div>
+					</li>
+					<li>
+						<div class="input-field">
+							<input id="exportHeight" type="text" class="validate" value="500">
+							<label for="exportHeight">Height</label>
+						</div>
+					</li>
+					<li>
+						<a class="waves-effect waves-light btn">Export</a>
+					</li>
+				</ul>
+				<ul class="right">
+					<li class="btnExportWrapper"><a class="waves-effect waves-light btn-large btnExport">Export pattern</a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<li><a href="sass.html">Sass</a></li>
+					<li><a href="badges.html">Components</a></li>
+					<li><a href="collapsible.html">Javascript</a></li>
+					<li><a href="mobile.html">Mobile</a></li>
+					<li class="btnExportWrapper"><a class="waves-effect waves-light btn-large btnExport">Export pattern</a></li>
+				</ul>-->
+			</div>
+		</nav>
+		<div class="mainContent">
+			<div class="sidebarWrapper">
+				<ul class="side-nav fixed sidebar">
+					<li><a><img src="img/Cropincrease.svg" alt=""></a></li>
+					<li><a><img src="img/Photoadd.svg" alt=""></a></li>
+					<li><a id = "add-text"><img src="img/Touchtype.svg" alt=""></a></li>
+					<li><a><img src="img/Savelove.svg" alt=""></a></li>
+				</ul>
+			</div>
+			<div class="canvasWrapper">
+				<div class="canvas valign-wrapper">
+					<canvas id="canvas"></canvas>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-2.1.1.min.js"></script>
+		<script src="js/materialize.min.js"></script>
+		<script src="js/fabric.min.js"></script>
+		<script src="js/aligning-guidelines.js"></script>
+		<script src="js/centering-guidelines.js"></script>
+		<script src="js/script.js"></script>
+		<script>
+			$(".button-collapse").sideNav();
+			$(document).ready(function() {
+				$('select').material_select();
+			});
+		</script>
+	</body>
+</html>
