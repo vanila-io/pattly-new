@@ -1,0 +1,46 @@
+{
+  "name": "pattly-new",
+  "version": "0.1.0",
+  "description": "\"#pattly-new\"",
+  "scripts": {
+    "start": "babel-node scripts/devServer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanila-io/pattly-new.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vanila-io/pattly-new/issues"
+  },
+  "homepage": "https://github.com/vanila-io/pattly-new#readme",
+  "devDependencies": {
+    "babel-cli": "^6.7.5",
+    "babel-eslint": "^6.0.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "css-loader": "^0.23.1",
+    "eslint": "^2.7.0",
+    "eslint-config-airbnb": "^7.0.0",
+    "eslint-plugin-jsx-a11y": "^0.6.2",
+    "eslint-plugin-react": "^4.3.0",
+    "express": "^4.13.4",
+    "file-loader": "^0.8.5",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.12.15",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-hot-middleware": "^2.10.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.3",
+    "material-ui": "^0.15.0-beta.1",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "react-tap-event-plugin": "^1.0.0"
+  }
+}
