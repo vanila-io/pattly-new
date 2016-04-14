@@ -6,8 +6,8 @@ import styles from '../styles/Navbar.css';
 export default function Navbar() {
   return (
     <nav>
-			<div className={cx('nav-wrapper', styles.navWrapper)}>
-				<a href="#!" className={cx('brand-logo', styles.brandLogo)}>
+      <div className={cx('nav-wrapper', styles.navWrapper)}>
+        <a href="#!" className={cx('brand-logo', styles.brandLogo)}>
           <img src={require('../images/Smallsquares.svg')} alt />
         </a>
         <a
