@@ -7,6 +7,7 @@ nav .nav-wrapper{
   height: auto;
   line-height: 1;
   background: #121929;
+  left: 0;
 }
 
 .brand-logo img {
@@ -160,4 +161,34 @@ input[type=range]+.thumb.active{
 
 .widthFixed{
   width:100px!important;
+}
+
+.btnEnterGrid button{
+  background-color: #26A69A!important;
+
+  height: 36px!important;
+  line-height: 36px!important;
+}
+
+.btnEnterGrid button div div span{
+color:#fff!important;
+text-transform: none!important;}
+
+
+label{
+  width:auto!important;
+}
+
+.checkRatio, .checkGrid{
+  margin-top: 18px;
+}
+
+.checkGrid div label, .checkRatio div label{
+  font-size: 1rem!important;
+  color: #9E9E9E!important;
+}
+
+.navbarLeft li{
+  margin-left: 10px;
+  margin-right: 10px;
 }
