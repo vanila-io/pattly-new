@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>Cropincrease</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="outlined" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Interface_sliced" sketch:type="MSLayerGroup" transform="translate(-720.000000, -600.000000)"></g>
+        <g id="Imported-Layers" sketch:type="MSLayerGroup" transform="translate(-718.000000, -596.000000)" fill="#CC2C44">
+            <path d="M728,606 L724,606 C723.447,606 723,605.552 723,605 L723,601 C723,600.448 723.447,600 724,600 L728,600 C728.553,600 729,600.448 729,601 L729,605 C729,605.552 728.553,606 728,606 L728,606 Z M725,604 L727,604 L727,602 L725,602 L725,604 Z" id="Fill-266" sketch:type="MSShapeGroup"></path>
+            <path d="M728,626 L724,626 C723.447,626 723,625.552 723,625 L723,621 C723,620.448 723.447,620 724,620 L728,620 C728.553,620 729,620.448 729,621 L729,625 C729,625.552 728.553,626 728,626 L728,626 Z M725,624 L727,624 L727,622 L725,622 L725,624 Z" id="Fill-267" sketch:type="MSShapeGroup"></path>
+            <path d="M748,606 L744,606 C743.447,606 743,605.552 743,605 L743,601 C743,600.448 743.447,600 744,600 L748,600 C748.553,600 749,600.448 749,601 L749,605 C749,605.552 748.553,606 748,606 L748,606 Z M745,604 L747,604 L747,602 L745,602 L745,604 Z" id="Fill-268" sketch:type="MSShapeGroup"></path>
+            <path d="M748,626 L744,626 C743.447,626 743,625.552 743,625 L743,621 C743,620.448 743.447,620 744,620 L748,620 C748.553,620 749,620.448 749,621 L749,625 C749,625.552 748.553,626 748,626 L748,626 Z M745,624 L747,624 L747,622 L745,622 L745,624 Z" id="Fill-269" sketch:type="MSShapeGroup"></path>
+            <path d="M727,602 L745,602 L745,604 L727,604 L727,602 Z" id="Fill-270" sketch:type="MSShapeGroup"></path>
+            <path d="M727,622 L745,622 L745,624 L727,624 L727,622 Z" id="Fill-271" sketch:type="MSShapeGroup"></path>
+            <path d="M725,604 L727,604 L727,622 L725,622 L725,604 Z" id="Fill-272" sketch:type="MSShapeGroup"></path>
+            <path d="M745,604 L747,604 L747,622 L745,622 L745,604 Z" id="Fill-273" sketch:type="MSShapeGroup"></path>
+            <path d="M772,650 L726,650 C725.447,650 725,649.552 725,649 L725,625 L727,625 L727,648 L771,648 L771,604 L748,604 L748,602 L772,602 C772.553,602 773,602.448 773,603 L773,649 C773,649.552 772.553,650 772,650" id="Fill-274" sketch:type="MSShapeGroup"></path>
+            <path d="M763,641 C762.744,641 762.488,640.902 762.293,640.707 L752.293,630.707 C751.902,630.316 751.902,629.684 752.293,629.293 C752.684,628.902 753.316,628.902 753.707,629.293 L763.707,639.293 C764.098,639.684 764.098,640.316 763.707,640.707 C763.512,640.902 763.256,641 763,641" id="Fill-275" sketch:type="MSShapeGroup"></path>
+            <path d="M764,642 L754,642 C753.447,642 753,641.552 753,641 C753,640.448 753.447,640 754,640 L763,640 L763,631 C763,630.448 763.447,630 764,630 C764.553,630 765,630.448 765,631 L765,641 C765,641.552 764.553,642 764,642" id="Fill-276" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
